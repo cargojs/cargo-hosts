@@ -1,6 +1,6 @@
 # cargo-hosts
 
-[![Foo](https://travis-ci.org/cargojs/cargo-hosts.svg)](https://travis-ci.org/cargojs/cargo-hosts)
+[![](https://travis-ci.org/cargojs/cargo-hosts.svg)](https://travis-ci.org/cargojs/cargo-hosts)
 
 Manipulate your hostsfile using an abstracted api.
 
