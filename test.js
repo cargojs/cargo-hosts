@@ -38,6 +38,10 @@ describe('Hosts', function() {
       var hosts = new Hosts();
       assert(typeof hosts.engine._tempHostsfile == 'string');
     })
+    it('Should have the property hostsfile', function () {
+      var hosts = new Hosts();
+      assert(typeof hosts.engine.hostsfile == 'string');
+    })
     it('Should have the method add()', function () {
       var hosts = new Hosts;
       assert(typeof hosts.engine.add == 'function');

@@ -12,7 +12,7 @@ gulp.task('build', ['test'], function() {
 
 gulp.task('test', function () {
   return gulp.src('test.js', {read: false})
-		.pipe(mocha({reporter: 'min'}));
+		.pipe(mocha({reporter: 'spec'}));
 });
 
 gulp.task('watch', ['watch-test']);
