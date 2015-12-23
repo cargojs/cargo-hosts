@@ -1,0 +1,30 @@
+{
+  "name": "cargo-hosts",
+  "version": "1.0.0-dev",
+  "description": "Hostsfile manipulation via /etc/hosts and %SystemRoot%\\System32\\drivers\\etc\\hosts",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cargojs/cargo-hosts.git"
+  },
+  "keywords": [
+    "cargo",
+    "hostsfile",
+    "domain",
+    "dns"
+  ],
+  "author": "Lawrence <lawrence@thejs.ninja>",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/cargojs/cargo-hosts/issues"
+  },
+  "homepage": "https://github.com/cargojs/cargo-hosts#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-mocha": "^2.2.0",
+    "mocha": "^2.3.4"
+  }
+}
