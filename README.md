@@ -1,6 +1,7 @@
 # cargo-hosts
 
-[![](https://travis-ci.org/cargojs/cargo-hosts.svg)](https://travis-ci.org/cargojs/cargo-hosts)
+[![Integration Tests](https://travis-ci.org/cargojs/cargo-hosts.svg)](https://travis-ci.org/cargojs/cargo-hosts)
+[![Coverage Status](https://coveralls.io/repos/cargojs/cargo-hosts/badge.svg?branch=master&service=github)](https://coveralls.io/github/cargojs/cargo-hosts)
 
 Manipulate your hostsfile using an abstracted api.
 
